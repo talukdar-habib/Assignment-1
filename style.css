@@ -40,5 +40,34 @@
     color: white;
     font-family: "Azeret Mono", monospace;
     cursor: pointer;
-
+}
+.why-web{
+    position: absolute;
+width: 1140px;
+/* height: 1395px; */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 80px 97px 80px 97px;
+border: 1px solid rebeccapurple;
+}
+.why-web-content{
+    border: 1px solid red;
+    text-align: center;
+    width: 852px;
+}
+.web-future{
+    display: flex;
+    /* flex-direction: column; */
+    /* gap: 20px; */
+    justify-content: space-evenly;
+    border: 1px solid saddlebrown;
+    width: 852px;
+}
+.web-future-content{
+    width: 477px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
