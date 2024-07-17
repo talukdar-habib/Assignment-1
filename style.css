@@ -46,6 +46,10 @@
     font-family: "Azeret Mono", monospace;
     cursor: pointer;
 }
+.contact{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
 
 .why-web {
     /* position: absolute; */
@@ -76,6 +80,7 @@
     /* border: 1px solid saddlebrown; */
     margin-bottom: 32px;
     width: 852px;
+    background-color: white;
 }
 
 .web-future-content {
@@ -130,6 +135,7 @@
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 15px;
+    background: transparent;
 }
 
 .second-section-height {
@@ -225,9 +231,81 @@
     text-decoration: none;
     /* text-decoration-line: underline; */
 }
-.css{
+
+.css {
     background: rgba(0, 76, 232, 0.05);
 }
-.js{
+
+.js {
     background: rgba(255, 223, 0, 0.05);
+}
+
+.last-section {
+    height: 350px;
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid black;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.473), rgba(12, 12, 12, 0.459)), url("assets/handshake.jpg");
+    background-position: center;
+    justify-content: center;
+    border-radius: 13px;
+    margin-top: 30px;
+    /* padding: 64px 48px 64px 48px; */
+    /* display: flex; */
+
+    /* background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email); */
+}
+
+.support {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 26px;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.support-para {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 12px;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.feedback {
+    /* box-sizing: border-box; */
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    width: 380px;
+    height: 40px;
+    /* text-align: center; */
+    justify-content: center;
+    /* padding: 19px 20px 19px 20px; */
+    margin-left: 300px;
+    margin-top: 50px;
+    padding-left: 15px;
+}
+
+.submit-btn {
+    width: 120px;
+    height: 46px;
+    border-radius: 8px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+footer {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 15px;
+    width: 80%;
+    margin: 30px auto;
+    margin-bottom: 0;
+    /* margin-left: 132px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
