@@ -85,18 +85,21 @@
     /* gap: 5px; */
     /* border: 1px solid red; */
 }
-.why-web-heading{
+
+.why-web-heading {
     font-family: "Azeret Mono", monospace;
-    width:800;
+    width: 800;
     Font size: 32px;
-/* Row height: 37px */
-/* Letter spacing: 0% */
+    /* Row height: 37px */
+    /* Letter spacing: 0% */
 }
-.why-web-paragraph{
+
+.why-web-paragraph {
     font-family: "Azeret Mono", monospace;
     font-size: 12px;
     opacity: 0.7;
 }
+
 .banner-subtitle {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
@@ -128,13 +131,84 @@
     font-family: Azeret Mono;
     font-size: 15px;
 }
-.section-height{
+
+.second-section-height {
     height: 700px;
     border: 1px solid black;
 }
-h1{
+
+
+.inspiration {
     text-align: center;
+    color: rgb(13, 19, 33);
+    font-family: "Azeret Mono", monospace;
+    font-size: 28px;
 }
-.p{
+
+.para {
     text-align: center;
+    color: rgb(13, 19, 33);
+    font-family: "Azeret Mono", monospace;
+    font-size: 12px;
+    opacity: 0.7;
+    gap: 40px;
+}
+
+.video {
+    margin: 10px 0px;
+    width: 1330px;
+    height: 550px;
+    border-radius: 13px;
+}
+
+.third-section-height {
+    height: 700px;
+    border: 1px solid red;
+}
+
+.target {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.target-para {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 12px;
+    text-align: center;
+    opacity: 0.7;
+    gap: 48px;
+}
+
+.html {
+    /* height: 320px; */
+    width: 300px;
+    border: 1px solid blue;
+    margin-top: 20px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.target-heading {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+}
+
+.target-para-2 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 12px;
+    opacity: 0.7;
+}
+.pain-btn{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 10px;
+text-decoration: none;
+/* text-decoration-line: underline; */
 }
