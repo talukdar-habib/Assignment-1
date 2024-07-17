@@ -134,7 +134,9 @@
 
 .second-section-height {
     height: 700px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    width: 80%;
+    margin: 0 auto;
 }
 
 
@@ -155,15 +157,25 @@
 }
 
 .video {
-    margin: 10px 0px;
-    width: 1330px;
+    /* margin: 10px 0px; */
+    /* width: 1330px; */
     height: 550px;
     border-radius: 13px;
+    width: 100%;
+    margin-top: 50px;
 }
 
 .third-section-height {
-    height: 700px;
-    border: 1px solid red;
+    /* height: 700px; */
+    /* border: 1px solid red; */
+    width: 80%;
+    margin: 0 auto;
+}
+
+.target-container {
+    display: flex;
+    gap: 30px;
+    /* justify-content: space-between; */
 }
 
 .target {
@@ -186,7 +198,7 @@
 .html {
     /* height: 320px; */
     width: 300px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     margin-top: 20px;
     padding: 40px;
     border-radius: 16px;
@@ -205,10 +217,17 @@
     font-size: 12px;
     opacity: 0.7;
 }
-.pain-btn{
+
+.pain-btn {
     color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 10px;
-text-decoration: none;
-/* text-decoration-line: underline; */
+    font-family: Azeret Mono;
+    font-size: 10px;
+    text-decoration: none;
+    /* text-decoration-line: underline; */
+}
+.css{
+    background: rgba(0, 76, 232, 0.05);
+}
+.js{
+    background: rgba(255, 223, 0, 0.05);
 }
